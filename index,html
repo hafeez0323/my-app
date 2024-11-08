@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multan Patient Home Care</title>
+  <style>
+    /* Importing Google Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+    
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* Styling the body */
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f9ff;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    
+    /* Card container */
+    .container {
+      max-width: 500px;
+      background-color: #ffffff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    /* Header styling */
+    .header {
+      font-size: 26px;
+      font-weight: 600;
+      color: #00509e;
+      margin-bottom: 20px;
+    }
+
+    /* Logo styling - Unclickable */
+    .logo {
+      max-width: 100px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+    
+    /* Service list styling */
+    .service-list {
+      list-style: none;
+      margin: 15px 0;
+    }
+    
+    .service-item {
+      display: flex;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px solid #e0e0e0;
+      font-size: 18px;
+      color: #00509e;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    .service-item span {
+      font-weight: bold;
+      color: #00509e;
+      margin-right: 10px;
+    }
+    
+    /* Form styling */
+    form {
+      margin-top: 20px;
+    }
+    
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    
+    /* Button styling */
+    .button {
+      display: inline-block;
+      padding: 12px 20px;
+      font-size: 16px;
+      color: #ffffff;
+      background-color: #00509e;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      margin-top: 10px;
+      transition: background-color 0.3s;
+    }
+    
+    /* Hover effect */
+    .button:hover {
+      background-color: #003f7d;
+    }
+    
+    /* Footer text */
+    .footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Logo (Unclickable) -->
+    <img src="https://e7.pngegg.com/pngimages/576/590/png-clipart-skiptvet-legekontor-physician-medicine-health-care-nursing-others-miscellaneous-clipboard-thumbnail.png" alt="Multan Patient Home Care Logo" class="logo">
+    
+    <!-- Header -->
+    <div class="header">Multan Patient Home Care</div>
+    
+    <!-- Services List with Clickable Items for Call -->
+    <ul class="service-list">
+      <li><a href="tel:+923232007328" class="service-item"><span>1.</span> IM Injection</a></li>
+      <li><a href="tel:+923232007328" class="service-item"><span>2.</span> IV Injection</a></li>
+      <li><a href="tel:+923232007328" class="service-item"><span>3.</span> IV Drips</a></li>
+      <li><a href="tel:+923232007328" class="service-item"><span>4.</span> Catheterization</a></li>
+      <li><a href="tel:+923232007328" class="service-item"><span>5.</span> Dressing & Wound Care</a></li>
+      <li><a href="tel:+923232007328" class="service-item"><span>6.</span> Stitches Removal</a></li>
+      <li><a href="tel:+923232007328" class="service-item"><span>7.</span> Patient Massage</a></li>
+    </ul>
+    
+    <!-- Contact Form -->
+    <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="text" name="phone" placeholder="Your Contact Number" required>
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+      <input type="submit" value="Send Message" class="button">
+    </form>
+    
+    <!-- Direct Call Button -->
+    <a href="tel:+923232007328" class="button">Call Us</a>
+    
+    <!-- Footer with App Maker Name -->
+    <div class="footer">App created by Abdul Hafeez</div>
+  </div>
+</body>
+</html>
